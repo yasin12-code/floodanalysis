@@ -63,8 +63,11 @@ def ensure_seeded() -> bool:
     """
     started = time.monotonic()
 
-    # Step 1: extension + schema, committed immediately.
+    # Step 1: extension + schema, committed immediately. The statement timeout
+    # turns a stuck database (e.g. a dead advisory lock or a hung Neon compute)
+    # into a fast, logged failure instead of an endless hang at boot.
     with get_pool().connection() as conn:
+        conn.execute("SET LOCAL statement_timeout = '15000'")
         conn.execute("SELECT pg_advisory_xact_lock(%s)", (SEED_LOCK_KEY,))
         conn.execute("CREATE EXTENSION IF NOT EXISTS postgis")
         if not _schema_exists(conn):
@@ -74,6 +77,7 @@ def ensure_seeded() -> bool:
 
     # Step 2: sample data, its own transaction.
     with get_pool().connection() as conn:
+        conn.execute("SET LOCAL statement_timeout = '15000'")
         conn.execute("SELECT pg_advisory_xact_lock(%s)", (SEED_LOCK_KEY,))
         if conn.execute("SELECT count(*) FROM areas").fetchone()[0] > 0:
             return False

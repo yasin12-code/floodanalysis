@@ -18,7 +18,10 @@ def init_pool(database_url: str) -> None:
     kwargs = {"connect_timeout": 10}
     if os.environ.get("DB_PGBOUNCER") == "1" or "-pooler" in database_url:
         kwargs["prepare_threshold"] = None
-    pool = ConnectionPool(database_url, min_size=1, max_size=10, open=True, kwargs=kwargs)
+    # timeout: how long a request waits for a free pool connection before
+    # failing (default 30 s produced long hangs when the pool was stuck).
+    pool = ConnectionPool(database_url, min_size=1, max_size=10, open=True,
+                          timeout=10, kwargs=kwargs)
 
 
 def close_pool() -> None:
