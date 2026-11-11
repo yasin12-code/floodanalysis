@@ -1,0 +1,42 @@
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-webgis}
+    volumes:
+      # Runs 01_extensions.sql .. 04_views.sql in order on first start.
+      - ./db/init:/docker-entrypoint-initdb.d:ro
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-webgis}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      # Inside the compose network the database host is 'db'; everything else
+      # comes from the .env file next to docker-compose.yml.
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@db:5432/${POSTGRES_DB:-webgis}
+      MAP_CENTER_LAT: ${MAP_CENTER_LAT:-34.006}
+      MAP_CENTER_LNG: ${MAP_CENTER_LNG:-71.974}
+      MAP_ZOOM: ${MAP_ZOOM:-13}
+      STUDY_AREA_BBOX: ${STUDY_AREA_BBOX:-71.85,33.90,72.10,34.12}
+      DEFAULT_RADIUS_M: ${DEFAULT_RADIUS_M:-3000}
+      CAUTION_RADIUS_M: ${CAUTION_RADIUS_M:-500}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:8000}
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+
+volumes:
+  pgdata:

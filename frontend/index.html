@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flood Risk and Shelter WebGIS</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar" aria-label="Application panels">
+      <header id="app-header">
+        <h1>Flood Risk &amp; Shelter WebGIS</h1>
+        <p id="app-subtitle">Nowshera study area · Kabul River · data served from PostGIS</p>
+        <label class="area-picker" for="area-select">
+          <span>Study area</span>
+          <select id="area-select" aria-label="Study area"></select>
+        </label>
+      </header>
+
+      <div id="error-banner" role="alert" hidden></div>
+
+      <nav id="tabs" role="tablist" aria-label="Sidebar tabs">
+        <button id="tab-check" class="tab active" role="tab" aria-selected="true" aria-controls="panel-check">Check location</button>
+        <button id="tab-filters" class="tab" role="tab" aria-selected="false" aria-controls="panel-filters">Filters</button>
+        <button id="tab-add" class="tab" role="tab" aria-selected="false" aria-controls="panel-add">Add shelter</button>
+        <button id="tab-stats" class="tab" role="tab" aria-selected="false" aria-controls="panel-stats">Stats</button>
+      </nav>
+
+      <section id="panel-check" class="panel active" role="tabpanel" aria-labelledby="tab-check">
+        <h2>Click analysis</h2>
+        <p class="hint">Click anywhere on the map to check flood risk and find nearby shelters.</p>
+        <div class="controls">
+          <label for="radius-slider">Search radius: <strong id="radius-value">—</strong></label>
+          <input type="range" id="radius-slider" min="500" max="10000" step="100" value="3000" aria-describedby="radius-value">
+          <button id="btn-locate" type="button">Use my location</button>
+        </div>
+        <div id="result-panel" class="result-placeholder" aria-live="polite">No analysis yet — click the map.</div>
+      </section>
+
+      <section id="panel-filters" class="panel" role="tabpanel" aria-labelledby="tab-filters" hidden>
+        <h2>Filters</h2>
+        <form id="filter-form">
+          <fieldset>
+            <legend>Flood risk level</legend>
+            <div class="checkbox-grid">
+              <label class="check-chip"><input type="checkbox" name="risk" value="1"><span class="swatch" style="background:#FFEDA0"></span>1 · Low</label>
+              <label class="check-chip"><input type="checkbox" name="risk" value="2"><span class="swatch" style="background:#FEB24C"></span>2 · Medium</label>
+              <label class="check-chip"><input type="checkbox" name="risk" value="3"><span class="swatch" style="background:#F03B20"></span>3 · High</label>
+              <label class="check-chip"><input type="checkbox" name="risk" value="4"><span class="swatch" style="background:#BD0026"></span>4 · Very high</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Shelter type</legend>
+            <div class="checkbox-grid">
+              <label class="check-chip"><input type="checkbox" name="shelter-type" value="school">School</label>
+              <label class="check-chip"><input type="checkbox" name="shelter-type" value="hospital">Hospital</label>
+              <label class="check-chip"><input type="checkbox" name="shelter-type" value="community_center">Community centre</label>
+              <label class="check-chip"><input type="checkbox" name="shelter-type" value="mosque">Mosque</label>
+              <label class="check-chip"><input type="checkbox" name="shelter-type" value="government_building">Govt. building</label>
+              <label class="check-chip"><input type="checkbox" name="shelter-type" value="camp">Camp</label>
+              <label class="check-chip"><input type="checkbox" name="shelter-type" value="other">Other</label>
+            </div>
+          </fieldset>
+          <div class="field">
+            <label for="filter-shelter-status">Shelter status</label>
+            <select id="filter-shelter-status">
+              <option value="">Any</option>
+              <option value="open">Open</option>
+              <option value="full">Full</option>
+              <option value="closed">Closed</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="filter-min-capacity">Minimum capacity (people)</label>
+            <input type="number" id="filter-min-capacity" min="0" step="10" placeholder="e.g. 100">
+          </div>
+          <div class="field checkbox">
+            <input type="checkbox" id="filter-unverified">
+            <label for="filter-unverified">Include unverified shelters</label>
+          </div>
+          <div class="field">
+            <label for="filter-road-status">Road status</label>
+            <select id="filter-road-status">
+              <option value="">Any</option>
+              <option value="open">Open</option>
+              <option value="flooded">Flooded</option>
+              <option value="blocked">Blocked</option>
+            </select>
+          </div>
+          <div class="field checkbox">
+            <input type="checkbox" id="filter-at-risk-roads">
+            <label for="filter-at-risk-roads">Roads at risk only</label>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="primary">Apply filters</button>
+            <button type="button" id="btn-reset-filters">Reset</button>
+          </div>
+        </form>
+        <p id="layer-counts" class="hint" aria-live="polite"></p>
+      </section>
+
+      <section id="panel-add" class="panel" role="tabpanel" aria-labelledby="tab-add" hidden>
+        <h2>Suggest a shelter</h2>
+        <p class="hint">Missing from the map? Suggest it below. New suggestions are unverified until reviewed.</p>
+        <form id="shelter-form" novalidate>
+          <div class="field">
+            <label for="shelter-name">Name</label>
+            <input type="text" id="shelter-name" required minlength="1" maxlength="120" placeholder="e.g. Government High School Pabbi">
+          </div>
+          <div class="field">
+            <label for="shelter-type">Type</label>
+            <select id="shelter-type" required>
+              <option value="">Choose a type…</option>
+              <option value="school">School</option>
+              <option value="hospital">Hospital</option>
+              <option value="community_center">Community centre</option>
+              <option value="mosque">Mosque</option>
+              <option value="government_building">Government building</option>
+              <option value="camp">Camp</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="shelter-capacity">Capacity (people)</label>
+            <input type="number" id="shelter-capacity" required min="0" max="100000" step="1" placeholder="e.g. 500">
+          </div>
+          <div class="field">
+            <label for="shelter-phone">Contact phone (optional, digits, spaces, + and -)</label>
+            <input type="tel" id="shelter-phone" pattern="[0-9+\-\s]+" maxlength="30" placeholder="+92 333 1234567">
+          </div>
+          <div class="field">
+            <label for="shelter-address">Address (optional)</label>
+            <input type="text" id="shelter-address" maxlength="500">
+          </div>
+          <div class="field">
+            <span class="label-like">Location</span>
+            <button type="button" id="btn-pick-shelter" class="secondary">Pick location on map</button>
+            <span id="shelter-coords" class="coords">Not set — click the map</span>
+            <input type="hidden" id="shelter-lat">
+            <input type="hidden" id="shelter-lng">
+          </div>
+          <p id="shelter-form-status" class="form-status" aria-live="polite"></p>
+          <button type="submit" class="primary">Submit suggestion</button>
+        </form>
+
+        <h2>Report flooding</h2>
+        <form id="report-form" novalidate>
+          <div class="field">
+            <label for="report-type">What did you see?</label>
+            <select id="report-type" required>
+              <option value="">Choose a report type…</option>
+              <option value="water_level">Rising water level</option>
+              <option value="road_blocked">Road blocked</option>
+              <option value="people_stranded">People stranded</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="report-severity">Severity</label>
+            <select id="report-severity">
+              <option value="1">1 · Mild</option>
+              <option value="2" selected>2 · Moderate</option>
+              <option value="3">3 · Severe</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="report-description">Description (optional)</label>
+            <textarea id="report-description" maxlength="2000" rows="2"></textarea>
+          </div>
+          <div class="field">
+            <span class="label-like">Location</span>
+            <button type="button" id="btn-pick-report" class="secondary">Pick location on map</button>
+            <span id="report-coords" class="coords">Not set — click the map</span>
+            <input type="hidden" id="report-lat">
+            <input type="hidden" id="report-lng">
+          </div>
+          <p id="report-form-status" class="form-status" aria-live="polite"></p>
+          <button type="submit" class="primary">Submit report</button>
+        </form>
+      </section>
+
+      <section id="panel-stats" class="panel" role="tabpanel" aria-labelledby="tab-stats" hidden>
+        <h2>Summary statistics</h2>
+        <div id="stats-container"><p class="hint">Loading…</p></div>
+      </section>
+    </aside>
+
+    <main id="map" aria-label="Map">
+      <div id="map-loading" hidden><div class="spinner" aria-hidden="true"></div><span>Loading layers…</span></div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

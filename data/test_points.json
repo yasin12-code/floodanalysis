@@ -1,0 +1,29 @@
+{
+  "points": {
+    "inside_level_4": {
+      "lng": 71.97,
+      "lat": 34.010068,
+      "expected_status": "in_zone",
+      "expected_risk_level": 4
+    },
+    "inside_level_1": {
+      "lng": 71.968275,
+      "lat": 34.019392,
+      "expected_status": "in_zone",
+      "expected_risk_level": 1
+    },
+    "within_500m_of_zone": {
+      "lng": 71.96696,
+      "lat": 34.026495,
+      "expected_status": "near_zone",
+      "expected_nearest_zone_distance_m_min": 200,
+      "expected_nearest_zone_distance_m_max": 500
+    },
+    "far_outside": {
+      "lng": 71.956855,
+      "lat": 34.081102,
+      "expected_status": "outside",
+      "expected_nearest_zone_distance_m_min": 5000
+    }
+  }
+}

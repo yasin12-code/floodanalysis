@@ -1,0 +1,5381 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government Boys High School Nowshera Kalan",
+        "shelter_type": "school",
+        "capacity": 600,
+        "current_occupancy": 240,
+        "status": "open",
+        "contact_phone": "+92 333 4512101",
+        "address": "Nowshera Kalan, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.966549,
+          34.028715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riverside Community Centre",
+        "shelter_type": "community_center",
+        "capacity": 150,
+        "current_occupancy": 60,
+        "status": "open",
+        "contact_phone": "+92 333 4512102",
+        "address": "Kabul River Road, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.969869,
+          34.010779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al-Khidmat Relief Camp",
+        "shelter_type": "camp",
+        "capacity": 400,
+        "current_occupancy": 400,
+        "status": "full",
+        "contact_phone": "+92 333 4512103",
+        "address": "Cantt Area, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.962606,
+          34.050025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Civil Hospital Nowshera",
+        "shelter_type": "hospital",
+        "capacity": 250,
+        "current_occupancy": 0,
+        "status": "closed",
+        "contact_phone": "+92 333 4512104",
+        "address": "Main Bazaar, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.978216,
+          33.965672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Taqwa",
+        "shelter_type": "mosque",
+        "capacity": 500,
+        "current_occupancy": 130,
+        "status": "open",
+        "contact_phone": "+92 333 4512105",
+        "address": "Risalpur Road, Nowshera, KP",
+        "is_verified": false,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.964742,
+          34.038482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Amangarh (proposed)",
+        "shelter_type": "community_center",
+        "capacity": 300,
+        "current_occupancy": 0,
+        "status": "open",
+        "contact_phone": null,
+        "address": "Amangarh, Nowshera, KP",
+        "is_verified": false,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.964085,
+          34.042034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government Primary School Pir Piai (unverified)",
+        "shelter_type": "school",
+        "capacity": 350,
+        "current_occupancy": 90,
+        "status": "open",
+        "contact_phone": "+92 333 4512106",
+        "address": "Pir Piai, Nowshera, KP",
+        "is_verified": false,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.975258,
+          33.981655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Amangarh",
+        "shelter_type": "other",
+        "capacity": 726,
+        "current_occupancy": 679,
+        "status": "open",
+        "contact_phone": "+92 348 6188935",
+        "address": "Kabul River Road, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.961947,
+          34.091309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Markazi Masjid Kabul River Road",
+        "shelter_type": "camp",
+        "capacity": 442,
+        "current_occupancy": 194,
+        "status": "open",
+        "contact_phone": "+92 329 6049101",
+        "address": "Kabul River Road, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.01247,
+          34.02425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Nowshera Kalan",
+        "shelter_type": "mosque",
+        "capacity": 1237,
+        "current_occupancy": 659,
+        "status": "open",
+        "contact_phone": "+92 338 8938746",
+        "address": "Akora Khattak, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.937736,
+          33.965731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Pabbi",
+        "shelter_type": "camp",
+        "capacity": 736,
+        "current_occupancy": 240,
+        "status": "open",
+        "contact_phone": "+92 332 1409790",
+        "address": "Nowshera Kalan, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.977936,
+          34.0376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital GT Road",
+        "shelter_type": "government_building",
+        "capacity": 982,
+        "current_occupancy": 644,
+        "status": "open",
+        "contact_phone": "+92 367 7705062",
+        "address": "Risalpur, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.996142,
+          34.060643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Basic Health Unit Nowshera Kalan",
+        "shelter_type": "hospital",
+        "capacity": 268,
+        "current_occupancy": 112,
+        "status": "open",
+        "contact_phone": "+92 387 1842524",
+        "address": "Mardan Road, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.049605,
+          34.076275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Nowshera Cantt",
+        "shelter_type": "government_building",
+        "capacity": 1417,
+        "current_occupancy": 1144,
+        "status": "open",
+        "contact_phone": "+92 379 9468772",
+        "address": "Kabul River Road, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.966728,
+          34.066241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp GT Road",
+        "shelter_type": "hospital",
+        "capacity": 1022,
+        "current_occupancy": 769,
+        "status": "open",
+        "contact_phone": "+92 348 9130188",
+        "address": "Risalpur, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.05047,
+          34.056421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid GT Road",
+        "shelter_type": "school",
+        "capacity": 606,
+        "current_occupancy": 553,
+        "status": "open",
+        "contact_phone": "+92 336 3563646",
+        "address": "Risalpur, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.894722,
+          33.978574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Kabul River Road",
+        "shelter_type": "mosque",
+        "capacity": 901,
+        "current_occupancy": 852,
+        "status": "open",
+        "contact_phone": "+92 390 7381734",
+        "address": "GT Road, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.957444,
+          34.022244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government High School Amangarh",
+        "shelter_type": "government_building",
+        "capacity": 908,
+        "current_occupancy": 752,
+        "status": "open",
+        "contact_phone": "+92 337 4681284",
+        "address": "Pabbi, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.936736,
+          33.996298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre GT Road",
+        "shelter_type": "other",
+        "capacity": 1440,
+        "current_occupancy": 338,
+        "status": "open",
+        "contact_phone": "+92 329 9961107",
+        "address": "Nowshera Kalan, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.885515,
+          33.987142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Pir Piai",
+        "shelter_type": "hospital",
+        "capacity": 1366,
+        "current_occupancy": 945,
+        "status": "open",
+        "contact_phone": "+92 365 4551070",
+        "address": "GT Road, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.987234,
+          33.934607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Markazi Masjid Amangarh",
+        "shelter_type": "mosque",
+        "capacity": 913,
+        "current_occupancy": 83,
+        "status": "open",
+        "contact_phone": "+92 380 6871360",
+        "address": "Risalpur, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.024634,
+          33.994451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Nowshera Kalan",
+        "shelter_type": "hospital",
+        "capacity": 458,
+        "current_occupancy": 318,
+        "status": "open",
+        "contact_phone": "+92 371 4656838",
+        "address": "GT Road, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.023304,
+          34.091434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Amangarh",
+        "shelter_type": "community_center",
+        "capacity": 284,
+        "current_occupancy": 83,
+        "status": "open",
+        "contact_phone": "+92 304 7296605",
+        "address": "Kabul River Road, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.91188,
+          34.033232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Nowshera Cantt 77",
+        "shelter_type": "other",
+        "capacity": 258,
+        "current_occupancy": 154,
+        "status": "open",
+        "contact_phone": "+92 319 1689025",
+        "address": "Amangarh, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.011217,
+          34.036631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Kabul River Road",
+        "shelter_type": "other",
+        "capacity": 1376,
+        "current_occupancy": 860,
+        "status": "open",
+        "contact_phone": "+92 365 8713146",
+        "address": "Akora Khattak, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.005689,
+          33.941723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Akora Khattak",
+        "shelter_type": "other",
+        "capacity": 603,
+        "current_occupancy": 551,
+        "status": "open",
+        "contact_phone": "+92 369 5502929",
+        "address": "Amangarh, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.019421,
+          34.094131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Nowshera Cantt 37",
+        "shelter_type": "mosque",
+        "capacity": 1001,
+        "current_occupancy": 684,
+        "status": "open",
+        "contact_phone": "+92 375 4050766",
+        "address": "GT Road, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.04751,
+          33.971457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Amangarh 35",
+        "shelter_type": "government_building",
+        "capacity": 1486,
+        "current_occupancy": 1486,
+        "status": "full",
+        "contact_phone": "+92 331 5049282",
+        "address": "Kabul River Road, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.944664,
+          34.079654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tehsil Municipal Office Mardan Road",
+        "shelter_type": "other",
+        "capacity": 1372,
+        "current_occupancy": 917,
+        "status": "open",
+        "contact_phone": "+92 343 7784725",
+        "address": "Risalpur, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.024051,
+          34.047404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Pir Piai",
+        "shelter_type": "community_center",
+        "capacity": 754,
+        "current_occupancy": 563,
+        "status": "open",
+        "contact_phone": "+92 374 6144280",
+        "address": "Pabbi, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.950114,
+          34.02409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Nowshera Cantt 94",
+        "shelter_type": "hospital",
+        "capacity": 1147,
+        "current_occupancy": 379,
+        "status": "closed",
+        "contact_phone": "+92 374 9801946",
+        "address": "Pir Piai, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.916591,
+          33.950324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Nowshera Cantt",
+        "shelter_type": "camp",
+        "capacity": 789,
+        "current_occupancy": 14,
+        "status": "open",
+        "contact_phone": "+92 340 1914794",
+        "address": "Mardan Road, Nowshera, KP",
+        "is_verified": true,
+        "area": "nowshera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.038199,
+          33.980362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government Boys High School Peshawar",
+        "shelter_type": "school",
+        "capacity": 600,
+        "current_occupancy": 240,
+        "status": "open",
+        "contact_phone": "+92 333 4512101",
+        "address": "University Town, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.535815,
+          34.02664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riverside Community Centre",
+        "shelter_type": "community_center",
+        "capacity": 150,
+        "current_occupancy": 60,
+        "status": "open",
+        "contact_phone": "+92 333 4512102",
+        "address": "Kabul River Road, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.524809,
+          34.009924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al-Khidmat Relief Camp",
+        "shelter_type": "camp",
+        "capacity": 400,
+        "current_occupancy": 400,
+        "status": "full",
+        "contact_phone": "+92 333 4512103",
+        "address": "Cantt Area, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.548275,
+          34.045565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Civil Hospital Peshawar",
+        "shelter_type": "hospital",
+        "capacity": 250,
+        "current_occupancy": 0,
+        "status": "closed",
+        "contact_phone": "+92 333 4512104",
+        "address": "Main Bazaar, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.497917,
+          33.969077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Taqwa",
+        "shelter_type": "mosque",
+        "capacity": 500,
+        "current_occupancy": 130,
+        "status": "open",
+        "contact_phone": "+92 333 4512105",
+        "address": "University Road, Peshawar, KP",
+        "is_verified": false,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.541526,
+          34.035314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Hayatabad (proposed)",
+        "shelter_type": "community_center",
+        "capacity": 300,
+        "current_occupancy": 0,
+        "status": "open",
+        "contact_phone": null,
+        "address": "Hayatabad, Peshawar, KP",
+        "is_verified": false,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.543602,
+          34.038468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government Primary School Dalazak Road (unverified)",
+        "shelter_type": "school",
+        "capacity": 350,
+        "current_occupancy": 90,
+        "status": "open",
+        "contact_phone": "+92 333 4512106",
+        "address": "Dalazak Road, Peshawar, KP",
+        "is_verified": false,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.507262,
+          33.983271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Ring Road",
+        "shelter_type": "other",
+        "capacity": 726,
+        "current_occupancy": 679,
+        "status": "open",
+        "contact_phone": "+92 348 6188935",
+        "address": "Warsak Road, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.511947,
+          34.100797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Markazi Masjid Warsak Road",
+        "shelter_type": "camp",
+        "capacity": 442,
+        "current_occupancy": 194,
+        "status": "open",
+        "contact_phone": "+92 329 6049101",
+        "address": "Warsak Road, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.56247,
+          34.029794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Peshawar City",
+        "shelter_type": "mosque",
+        "capacity": 1237,
+        "current_occupancy": 659,
+        "status": "open",
+        "contact_phone": "+92 338 8938746",
+        "address": "University Town, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.487736,
+          33.967833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Charsadda Road",
+        "shelter_type": "camp",
+        "capacity": 736,
+        "current_occupancy": 240,
+        "status": "open",
+        "contact_phone": "+92 332 1409790",
+        "address": "Peshawar City, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.527936,
+          34.043929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Kohat Road",
+        "shelter_type": "government_building",
+        "capacity": 982,
+        "current_occupancy": 644,
+        "status": "open",
+        "contact_phone": "+92 367 7705062",
+        "address": "Saddar, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.546142,
+          34.068328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Basic Health Unit Peshawar City",
+        "shelter_type": "hospital",
+        "capacity": 268,
+        "current_occupancy": 112,
+        "status": "open",
+        "contact_phone": "+92 387 1842524",
+        "address": "Dalazak Road, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.599605,
+          34.084879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Hayatabad",
+        "shelter_type": "government_building",
+        "capacity": 1417,
+        "current_occupancy": 1144,
+        "status": "open",
+        "contact_phone": "+92 379 9468772",
+        "address": "Warsak Road, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.516728,
+          34.074255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Kohat Road",
+        "shelter_type": "hospital",
+        "capacity": 1022,
+        "current_occupancy": 769,
+        "status": "open",
+        "contact_phone": "+92 348 9130188",
+        "address": "Saddar, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.60047,
+          34.063858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Kohat Road",
+        "shelter_type": "school",
+        "capacity": 606,
+        "current_occupancy": 553,
+        "status": "open",
+        "contact_phone": "+92 336 3563646",
+        "address": "Saddar, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.444722,
+          33.981431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Warsak Road",
+        "shelter_type": "mosque",
+        "capacity": 901,
+        "current_occupancy": 852,
+        "status": "open",
+        "contact_phone": "+92 390 7381734",
+        "address": "Kohat Road, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.507444,
+          34.02767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government High School Ring Road",
+        "shelter_type": "government_building",
+        "capacity": 908,
+        "current_occupancy": 752,
+        "status": "open",
+        "contact_phone": "+92 337 4681284",
+        "address": "Charsadda Road, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.486736,
+          34.000198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Kohat Road",
+        "shelter_type": "other",
+        "capacity": 1440,
+        "current_occupancy": 338,
+        "status": "open",
+        "contact_phone": "+92 329 9961107",
+        "address": "Peshawar City, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.435515,
+          33.990503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Gulbahar",
+        "shelter_type": "hospital",
+        "capacity": 1366,
+        "current_occupancy": 945,
+        "status": "open",
+        "contact_phone": "+92 365 4551070",
+        "address": "Kohat Road, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.537234,
+          33.934878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Markazi Masjid Ring Road",
+        "shelter_type": "mosque",
+        "capacity": 913,
+        "current_occupancy": 83,
+        "status": "open",
+        "contact_phone": "+92 380 6871360",
+        "address": "Saddar, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.574634,
+          33.998243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Peshawar City",
+        "shelter_type": "hospital",
+        "capacity": 458,
+        "current_occupancy": 318,
+        "status": "open",
+        "contact_phone": "+92 371 4656838",
+        "address": "Kohat Road, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.573304,
+          34.10093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Ring Road",
+        "shelter_type": "community_center",
+        "capacity": 284,
+        "current_occupancy": 83,
+        "status": "open",
+        "contact_phone": "+92 304 7296605",
+        "address": "Warsak Road, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.46188,
+          34.039305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Hayatabad 77",
+        "shelter_type": "other",
+        "capacity": 258,
+        "current_occupancy": 154,
+        "status": "open",
+        "contact_phone": "+92 319 1689025",
+        "address": "Ring Road, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.561217,
+          34.042904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Warsak Road",
+        "shelter_type": "other",
+        "capacity": 1376,
+        "current_occupancy": 860,
+        "status": "open",
+        "contact_phone": "+92 365 8713146",
+        "address": "University Town, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.555689,
+          33.942412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre University Town",
+        "shelter_type": "other",
+        "capacity": 603,
+        "current_occupancy": 551,
+        "status": "open",
+        "contact_phone": "+92 369 5502929",
+        "address": "Ring Road, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.569421,
+          34.103785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Hayatabad 37",
+        "shelter_type": "mosque",
+        "capacity": 1001,
+        "current_occupancy": 684,
+        "status": "open",
+        "contact_phone": "+92 375 4050766",
+        "address": "Kohat Road, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.59751,
+          33.973895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Ring Road 35",
+        "shelter_type": "government_building",
+        "capacity": 1486,
+        "current_occupancy": 1486,
+        "status": "full",
+        "contact_phone": "+92 331 5049282",
+        "address": "Warsak Road, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.494664,
+          34.088458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tehsil Municipal Office Dalazak Road",
+        "shelter_type": "other",
+        "capacity": 1372,
+        "current_occupancy": 917,
+        "status": "open",
+        "contact_phone": "+92 343 7784725",
+        "address": "Saddar, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.574051,
+          34.05431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Gulbahar",
+        "shelter_type": "community_center",
+        "capacity": 754,
+        "current_occupancy": 563,
+        "status": "open",
+        "contact_phone": "+92 374 6144280",
+        "address": "Charsadda Road, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.500114,
+          34.029625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Hayatabad 94",
+        "shelter_type": "hospital",
+        "capacity": 1147,
+        "current_occupancy": 379,
+        "status": "closed",
+        "contact_phone": "+92 374 9801946",
+        "address": "Gulbahar, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.466591,
+          33.95152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Hayatabad",
+        "shelter_type": "camp",
+        "capacity": 789,
+        "current_occupancy": 14,
+        "status": "open",
+        "contact_phone": "+92 340 1914794",
+        "address": "Dalazak Road, Peshawar, KP",
+        "is_verified": true,
+        "area": "peshawar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.588199,
+          33.983324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government Boys High School Charsadda",
+        "shelter_type": "school",
+        "capacity": 600,
+        "current_occupancy": 240,
+        "status": "open",
+        "contact_phone": "+92 333 4512101",
+        "address": "Charsadda City, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.75218,
+          34.163078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riverside Community Centre",
+        "shelter_type": "community_center",
+        "capacity": 150,
+        "current_occupancy": 60,
+        "status": "open",
+        "contact_phone": "+92 333 4512102",
+        "address": "Swat River Road, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.739817,
+          34.144921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al-Khidmat Relief Camp",
+        "shelter_type": "camp",
+        "capacity": 400,
+        "current_occupancy": 400,
+        "status": "full",
+        "contact_phone": "+92 333 4512103",
+        "address": "Cantt Area, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.764969,
+          34.18186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Civil Hospital Charsadda",
+        "shelter_type": "hospital",
+        "capacity": 250,
+        "current_occupancy": 0,
+        "status": "closed",
+        "contact_phone": "+92 333 4512104",
+        "address": "Main Bazaar, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.711148,
+          34.102817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Taqwa",
+        "shelter_type": "mosque",
+        "capacity": 500,
+        "current_occupancy": 130,
+        "status": "open",
+        "contact_phone": "+92 333 4512105",
+        "address": "Shabqadar Road, Charsadda, KP",
+        "is_verified": false,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.758042,
+          34.171686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Tangi (proposed)",
+        "shelter_type": "community_center",
+        "capacity": 300,
+        "current_occupancy": 0,
+        "status": "open",
+        "contact_phone": null,
+        "address": "Tangi, Charsadda, KP",
+        "is_verified": false,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.760173,
+          34.174817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government Primary School Umarzai (unverified)",
+        "shelter_type": "school",
+        "capacity": 350,
+        "current_occupancy": 90,
+        "status": "open",
+        "contact_phone": "+92 333 4512106",
+        "address": "Umarzai, Charsadda, KP",
+        "is_verified": false,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.72074,
+          34.116904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Prang",
+        "shelter_type": "other",
+        "capacity": 726,
+        "current_occupancy": 679,
+        "status": "open",
+        "contact_phone": "+92 348 6188935",
+        "address": "Utmanzai, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.726259,
+          34.230797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Markazi Masjid Utmanzai",
+        "shelter_type": "camp",
+        "capacity": 442,
+        "current_occupancy": 194,
+        "status": "open",
+        "contact_phone": "+92 329 6049101",
+        "address": "Utmanzai, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.779442,
+          34.159794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Charsadda City",
+        "shelter_type": "mosque",
+        "capacity": 1237,
+        "current_occupancy": 659,
+        "status": "open",
+        "contact_phone": "+92 338 8938746",
+        "address": "Shabqadar, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.700775,
+          34.097833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Rajjar",
+        "shelter_type": "camp",
+        "capacity": 736,
+        "current_occupancy": 240,
+        "status": "open",
+        "contact_phone": "+92 332 1409790",
+        "address": "Charsadda City, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.74309,
+          34.173929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Matta Mughal Khel",
+        "shelter_type": "government_building",
+        "capacity": 982,
+        "current_occupancy": 644,
+        "status": "open",
+        "contact_phone": "+92 367 7705062",
+        "address": "Umarzai, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.762255,
+          34.198328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Basic Health Unit Charsadda City",
+        "shelter_type": "hospital",
+        "capacity": 268,
+        "current_occupancy": 112,
+        "status": "open",
+        "contact_phone": "+92 387 1842524",
+        "address": "Sardaryab, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.818532,
+          34.214879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Tangi",
+        "shelter_type": "government_building",
+        "capacity": 1417,
+        "current_occupancy": 1144,
+        "status": "open",
+        "contact_phone": "+92 379 9468772",
+        "address": "Utmanzai, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.731292,
+          34.204255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Matta Mughal Khel",
+        "shelter_type": "hospital",
+        "capacity": 1022,
+        "current_occupancy": 769,
+        "status": "open",
+        "contact_phone": "+92 348 9130188",
+        "address": "Umarzai, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.819442,
+          34.193858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Matta Mughal Khel",
+        "shelter_type": "school",
+        "capacity": 606,
+        "current_occupancy": 553,
+        "status": "open",
+        "contact_phone": "+92 336 3563646",
+        "address": "Umarzai, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.655497,
+          34.111431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Utmanzai",
+        "shelter_type": "mosque",
+        "capacity": 901,
+        "current_occupancy": 852,
+        "status": "open",
+        "contact_phone": "+92 390 7381734",
+        "address": "Matta Mughal Khel, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.72152,
+          34.15767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government High School Prang",
+        "shelter_type": "government_building",
+        "capacity": 908,
+        "current_occupancy": 752,
+        "status": "open",
+        "contact_phone": "+92 337 4681284",
+        "address": "Rajjar, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.699723,
+          34.130198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Matta Mughal Khel",
+        "shelter_type": "other",
+        "capacity": 1440,
+        "current_occupancy": 338,
+        "status": "open",
+        "contact_phone": "+92 329 9961107",
+        "address": "Charsadda City, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.645805,
+          34.120503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Khyali",
+        "shelter_type": "hospital",
+        "capacity": 1366,
+        "current_occupancy": 945,
+        "status": "open",
+        "contact_phone": "+92 365 4551070",
+        "address": "Matta Mughal Khel, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.752878,
+          34.064878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Markazi Masjid Prang",
+        "shelter_type": "mosque",
+        "capacity": 913,
+        "current_occupancy": 83,
+        "status": "open",
+        "contact_phone": "+92 380 6871360",
+        "address": "Umarzai, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.792246,
+          34.128243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Charsadda City",
+        "shelter_type": "hospital",
+        "capacity": 458,
+        "current_occupancy": 318,
+        "status": "open",
+        "contact_phone": "+92 371 4656838",
+        "address": "Matta Mughal Khel, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.790847,
+          34.23093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Prang",
+        "shelter_type": "community_center",
+        "capacity": 284,
+        "current_occupancy": 83,
+        "status": "open",
+        "contact_phone": "+92 304 7296605",
+        "address": "Utmanzai, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.673558,
+          34.169305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Tangi 77",
+        "shelter_type": "other",
+        "capacity": 258,
+        "current_occupancy": 154,
+        "status": "open",
+        "contact_phone": "+92 319 1689025",
+        "address": "Prang, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.778123,
+          34.172904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Utmanzai",
+        "shelter_type": "other",
+        "capacity": 1376,
+        "current_occupancy": 860,
+        "status": "open",
+        "contact_phone": "+92 365 8713146",
+        "address": "Shabqadar, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.772304,
+          34.072412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Shabqadar",
+        "shelter_type": "other",
+        "capacity": 603,
+        "current_occupancy": 551,
+        "status": "open",
+        "contact_phone": "+92 369 5502929",
+        "address": "Prang, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.786759,
+          34.233785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Tangi 37",
+        "shelter_type": "mosque",
+        "capacity": 1001,
+        "current_occupancy": 684,
+        "status": "open",
+        "contact_phone": "+92 375 4050766",
+        "address": "Matta Mughal Khel, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.816326,
+          34.103895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Prang 35",
+        "shelter_type": "government_building",
+        "capacity": 1486,
+        "current_occupancy": 1486,
+        "status": "full",
+        "contact_phone": "+92 331 5049282",
+        "address": "Utmanzai, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.708068,
+          34.218458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tehsil Municipal Office Sardaryab",
+        "shelter_type": "other",
+        "capacity": 1372,
+        "current_occupancy": 917,
+        "status": "open",
+        "contact_phone": "+92 343 7784725",
+        "address": "Umarzai, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.791633,
+          34.18431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Khyali",
+        "shelter_type": "community_center",
+        "capacity": 754,
+        "current_occupancy": 563,
+        "status": "open",
+        "contact_phone": "+92 374 6144280",
+        "address": "Rajjar, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.713804,
+          34.159625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Tangi 94",
+        "shelter_type": "hospital",
+        "capacity": 1147,
+        "current_occupancy": 379,
+        "status": "closed",
+        "contact_phone": "+92 374 9801946",
+        "address": "Khyali, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.678517,
+          34.08152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Tangi",
+        "shelter_type": "camp",
+        "capacity": 789,
+        "current_occupancy": 14,
+        "status": "open",
+        "contact_phone": "+92 340 1914794",
+        "address": "Sardaryab, Charsadda, KP",
+        "is_verified": true,
+        "area": "charsadda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.806526,
+          34.113324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government Boys High School Mardan",
+        "shelter_type": "school",
+        "capacity": 600,
+        "current_occupancy": 240,
+        "status": "open",
+        "contact_phone": "+92 333 4512101",
+        "address": "Mardan City, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.055377,
+          34.2098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riverside Community Centre",
+        "shelter_type": "community_center",
+        "capacity": 150,
+        "current_occupancy": 60,
+        "status": "open",
+        "contact_phone": "+92 333 4512102",
+        "address": "Kalpani River Road, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.044815,
+          34.194929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al-Khidmat Relief Camp",
+        "shelter_type": "camp",
+        "capacity": 400,
+        "current_occupancy": 400,
+        "status": "full",
+        "contact_phone": "+92 333 4512103",
+        "address": "Cantt Area, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.068579,
+          34.22839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Civil Hospital Mardan",
+        "shelter_type": "hospital",
+        "capacity": 250,
+        "current_occupancy": 0,
+        "status": "closed",
+        "contact_phone": "+92 333 4512104",
+        "address": "Main Bazaar, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.01742,
+          34.156356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Taqwa",
+        "shelter_type": "mosque",
+        "capacity": 500,
+        "current_occupancy": 130,
+        "status": "open",
+        "contact_phone": "+92 333 4512105",
+        "address": "Nowshera Road, Mardan, KP",
+        "is_verified": false,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.061428,
+          34.218321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Takht Bhai (proposed)",
+        "shelter_type": "community_center",
+        "capacity": 300,
+        "current_occupancy": 0,
+        "status": "open",
+        "contact_phone": null,
+        "address": "Takht Bhai, Mardan, KP",
+        "is_verified": false,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.063628,
+          34.221419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government Primary School Sheikh Maltoon Town (unverified)",
+        "shelter_type": "school",
+        "capacity": 350,
+        "current_occupancy": 90,
+        "status": "open",
+        "contact_phone": "+92 333 4512106",
+        "address": "Sheikh Maltoon Town, Mardan, KP",
+        "is_verified": false,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.027322,
+          34.170298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Lund Khwar",
+        "shelter_type": "other",
+        "capacity": 726,
+        "current_occupancy": 679,
+        "status": "open",
+        "contact_phone": "+92 348 6188935",
+        "address": "Baghicha Dheri, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.031947,
+          34.280797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Markazi Masjid Baghicha Dheri",
+        "shelter_type": "camp",
+        "capacity": 442,
+        "current_occupancy": 194,
+        "status": "open",
+        "contact_phone": "+92 329 6049101",
+        "address": "Baghicha Dheri, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.08247,
+          34.209794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Mardan City",
+        "shelter_type": "mosque",
+        "capacity": 1237,
+        "current_occupancy": 659,
+        "status": "open",
+        "contact_phone": "+92 338 8938746",
+        "address": "Sheikh Maltoon Town, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.007736,
+          34.147833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Katlang",
+        "shelter_type": "camp",
+        "capacity": 736,
+        "current_occupancy": 240,
+        "status": "open",
+        "contact_phone": "+92 332 1409790",
+        "address": "Mardan City, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.047936,
+          34.223929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Hoti",
+        "shelter_type": "government_building",
+        "capacity": 982,
+        "current_occupancy": 644,
+        "status": "open",
+        "contact_phone": "+92 367 7705062",
+        "address": "Par Hoti, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.066142,
+          34.248328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Basic Health Unit Mardan City",
+        "shelter_type": "hospital",
+        "capacity": 268,
+        "current_occupancy": 112,
+        "status": "open",
+        "contact_phone": "+92 387 1842524",
+        "address": "Garhi Kapura, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.119605,
+          34.264879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Takht Bhai",
+        "shelter_type": "government_building",
+        "capacity": 1417,
+        "current_occupancy": 1144,
+        "status": "open",
+        "contact_phone": "+92 379 9468772",
+        "address": "Baghicha Dheri, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.036728,
+          34.254255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Hoti",
+        "shelter_type": "hospital",
+        "capacity": 1022,
+        "current_occupancy": 769,
+        "status": "open",
+        "contact_phone": "+92 348 9130188",
+        "address": "Par Hoti, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.12047,
+          34.243858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Hoti",
+        "shelter_type": "school",
+        "capacity": 606,
+        "current_occupancy": 553,
+        "status": "open",
+        "contact_phone": "+92 336 3563646",
+        "address": "Par Hoti, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.964722,
+          34.161431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Baghicha Dheri",
+        "shelter_type": "mosque",
+        "capacity": 901,
+        "current_occupancy": 852,
+        "status": "open",
+        "contact_phone": "+92 390 7381734",
+        "address": "Hoti, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.027444,
+          34.20767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government High School Lund Khwar",
+        "shelter_type": "government_building",
+        "capacity": 908,
+        "current_occupancy": 752,
+        "status": "open",
+        "contact_phone": "+92 337 4681284",
+        "address": "Katlang, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.006736,
+          34.180198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Hoti",
+        "shelter_type": "other",
+        "capacity": 1440,
+        "current_occupancy": 338,
+        "status": "open",
+        "contact_phone": "+92 329 9961107",
+        "address": "Mardan City, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.955515,
+          34.170503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Mayar",
+        "shelter_type": "hospital",
+        "capacity": 1366,
+        "current_occupancy": 945,
+        "status": "open",
+        "contact_phone": "+92 365 4551070",
+        "address": "Hoti, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.057234,
+          34.114878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Markazi Masjid Lund Khwar",
+        "shelter_type": "mosque",
+        "capacity": 913,
+        "current_occupancy": 83,
+        "status": "open",
+        "contact_phone": "+92 380 6871360",
+        "address": "Par Hoti, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.094634,
+          34.178243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Mardan City",
+        "shelter_type": "hospital",
+        "capacity": 458,
+        "current_occupancy": 318,
+        "status": "open",
+        "contact_phone": "+92 371 4656838",
+        "address": "Hoti, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.093304,
+          34.28093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Lund Khwar",
+        "shelter_type": "community_center",
+        "capacity": 284,
+        "current_occupancy": 83,
+        "status": "open",
+        "contact_phone": "+92 304 7296605",
+        "address": "Baghicha Dheri, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.98188,
+          34.219305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Takht Bhai 77",
+        "shelter_type": "other",
+        "capacity": 258,
+        "current_occupancy": 154,
+        "status": "open",
+        "contact_phone": "+92 319 1689025",
+        "address": "Lund Khwar, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.081217,
+          34.222904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Baghicha Dheri",
+        "shelter_type": "other",
+        "capacity": 1376,
+        "current_occupancy": 860,
+        "status": "open",
+        "contact_phone": "+92 365 8713146",
+        "address": "Sheikh Maltoon Town, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.075689,
+          34.122412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Sheikh Maltoon Town",
+        "shelter_type": "other",
+        "capacity": 603,
+        "current_occupancy": 551,
+        "status": "open",
+        "contact_phone": "+92 369 5502929",
+        "address": "Lund Khwar, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.089421,
+          34.283785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Takht Bhai 37",
+        "shelter_type": "mosque",
+        "capacity": 1001,
+        "current_occupancy": 684,
+        "status": "open",
+        "contact_phone": "+92 375 4050766",
+        "address": "Hoti, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.11751,
+          34.153895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Lund Khwar 35",
+        "shelter_type": "government_building",
+        "capacity": 1486,
+        "current_occupancy": 1486,
+        "status": "full",
+        "contact_phone": "+92 331 5049282",
+        "address": "Baghicha Dheri, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.014664,
+          34.268458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tehsil Municipal Office Garhi Kapura",
+        "shelter_type": "other",
+        "capacity": 1372,
+        "current_occupancy": 917,
+        "status": "open",
+        "contact_phone": "+92 343 7784725",
+        "address": "Par Hoti, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.094051,
+          34.23431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Mayar",
+        "shelter_type": "community_center",
+        "capacity": 754,
+        "current_occupancy": 563,
+        "status": "open",
+        "contact_phone": "+92 374 6144280",
+        "address": "Katlang, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.020114,
+          34.209625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Takht Bhai 94",
+        "shelter_type": "hospital",
+        "capacity": 1147,
+        "current_occupancy": 379,
+        "status": "closed",
+        "contact_phone": "+92 374 9801946",
+        "address": "Mayar, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.986591,
+          34.13152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Takht Bhai",
+        "shelter_type": "camp",
+        "capacity": 789,
+        "current_occupancy": 14,
+        "status": "open",
+        "contact_phone": "+92 340 1914794",
+        "address": "Garhi Kapura, Mardan, KP",
+        "is_verified": true,
+        "area": "mardan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.108199,
+          34.163324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government Boys High School Islamabad",
+        "shelter_type": "school",
+        "capacity": 600,
+        "current_occupancy": 240,
+        "status": "open",
+        "contact_phone": "+92 333 4512101",
+        "address": "Blue Area, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.040621,
+          33.683148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riverside Community Centre",
+        "shelter_type": "community_center",
+        "capacity": 150,
+        "current_occupancy": 60,
+        "status": "open",
+        "contact_phone": "+92 333 4512102",
+        "address": "Soan River Road, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.049817,
+          33.669726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al-Khidmat Relief Camp",
+        "shelter_type": "camp",
+        "capacity": 400,
+        "current_occupancy": 400,
+        "status": "full",
+        "contact_phone": "+92 333 4512103",
+        "address": "Cantt Area, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.027789,
+          33.701878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Civil Hospital Islamabad",
+        "shelter_type": "hospital",
+        "capacity": 250,
+        "current_occupancy": 0,
+        "status": "closed",
+        "contact_phone": "+92 333 4512104",
+        "address": "Main Bazaar, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.075374,
+          33.632422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Taqwa",
+        "shelter_type": "mosque",
+        "capacity": 500,
+        "current_occupancy": 130,
+        "status": "open",
+        "contact_phone": "+92 333 4512105",
+        "address": "Sector G-9, Islamabad, ICT",
+        "is_verified": false,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03474,
+          33.691733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre G-9 Markaz (proposed)",
+        "shelter_type": "community_center",
+        "capacity": 300,
+        "current_occupancy": 0,
+        "status": "open",
+        "contact_phone": null,
+        "address": "G-9 Markaz, Islamabad, ICT",
+        "is_verified": false,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.032601,
+          33.694855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government Primary School Sohan (unverified)",
+        "shelter_type": "school",
+        "capacity": 350,
+        "current_occupancy": 90,
+        "status": "open",
+        "contact_phone": "+92 333 4512106",
+        "address": "Sohan, Islamabad, ICT",
+        "is_verified": false,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06575,
+          33.64647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Sector I-8",
+        "shelter_type": "other",
+        "capacity": 726,
+        "current_occupancy": 679,
+        "status": "open",
+        "contact_phone": "+92 348 6188935",
+        "address": "Sector I-10, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.036259,
+          33.76182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Markazi Masjid Sector I-10",
+        "shelter_type": "camp",
+        "capacity": 442,
+        "current_occupancy": 194,
+        "status": "open",
+        "contact_phone": "+92 329 6049101",
+        "address": "Sector I-10, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.089442,
+          33.698706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Blue Area",
+        "shelter_type": "mosque",
+        "capacity": 1237,
+        "current_occupancy": 659,
+        "status": "open",
+        "contact_phone": "+92 338 8938746",
+        "address": "Sector F-8, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.010775,
+          33.643629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Sector G-10",
+        "shelter_type": "camp",
+        "capacity": 736,
+        "current_occupancy": 240,
+        "status": "open",
+        "contact_phone": "+92 332 1409790",
+        "address": "Blue Area, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05309,
+          33.711271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Sohan",
+        "shelter_type": "government_building",
+        "capacity": 982,
+        "current_occupancy": 644,
+        "status": "open",
+        "contact_phone": "+92 367 7705062",
+        "address": "Sector G-9, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.072255,
+          33.732958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Basic Health Unit Blue Area",
+        "shelter_type": "hospital",
+        "capacity": 268,
+        "current_occupancy": 112,
+        "status": "open",
+        "contact_phone": "+92 387 1842524",
+        "address": "Bara Kahu, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.128532,
+          33.74767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Sector F-6",
+        "shelter_type": "government_building",
+        "capacity": 1417,
+        "current_occupancy": 1144,
+        "status": "open",
+        "contact_phone": "+92 379 9468772",
+        "address": "Sector I-10, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.041292,
+          33.738227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Sohan",
+        "shelter_type": "hospital",
+        "capacity": 1022,
+        "current_occupancy": 769,
+        "status": "open",
+        "contact_phone": "+92 348 9130188",
+        "address": "Sector G-9, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.129442,
+          33.728985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Sohan",
+        "shelter_type": "school",
+        "capacity": 606,
+        "current_occupancy": 553,
+        "status": "open",
+        "contact_phone": "+92 336 3563646",
+        "address": "Sector G-9, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.965497,
+          33.655717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Sector I-10",
+        "shelter_type": "mosque",
+        "capacity": 901,
+        "current_occupancy": 852,
+        "status": "open",
+        "contact_phone": "+92 390 7381734",
+        "address": "Sohan, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03152,
+          33.696818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government High School Sector I-8",
+        "shelter_type": "government_building",
+        "capacity": 908,
+        "current_occupancy": 752,
+        "status": "open",
+        "contact_phone": "+92 337 4681284",
+        "address": "Sector G-10, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.009723,
+          33.672398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Sohan",
+        "shelter_type": "other",
+        "capacity": 1440,
+        "current_occupancy": 338,
+        "status": "open",
+        "contact_phone": "+92 329 9961107",
+        "address": "Blue Area, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.955805,
+          33.663781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Rawal Town",
+        "shelter_type": "hospital",
+        "capacity": 1366,
+        "current_occupancy": 945,
+        "status": "open",
+        "contact_phone": "+92 365 4551070",
+        "address": "Sohan, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.062878,
+          33.614336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Markazi Masjid Sector I-8",
+        "shelter_type": "mosque",
+        "capacity": 913,
+        "current_occupancy": 83,
+        "status": "open",
+        "contact_phone": "+92 380 6871360",
+        "address": "Sector G-9, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.102246,
+          33.67066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Blue Area",
+        "shelter_type": "hospital",
+        "capacity": 458,
+        "current_occupancy": 318,
+        "status": "open",
+        "contact_phone": "+92 371 4656838",
+        "address": "Sohan, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.100847,
+          33.761938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Sector I-8",
+        "shelter_type": "community_center",
+        "capacity": 284,
+        "current_occupancy": 83,
+        "status": "open",
+        "contact_phone": "+92 304 7296605",
+        "address": "Sector I-10, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.983558,
+          33.70716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Sector F-6 77",
+        "shelter_type": "other",
+        "capacity": 258,
+        "current_occupancy": 154,
+        "status": "open",
+        "contact_phone": "+92 319 1689025",
+        "address": "Sector I-8, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.088123,
+          33.710359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Sector I-10",
+        "shelter_type": "other",
+        "capacity": 1376,
+        "current_occupancy": 860,
+        "status": "open",
+        "contact_phone": "+92 365 8713146",
+        "address": "Sector F-8, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.082304,
+          33.621033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Sector F-8",
+        "shelter_type": "other",
+        "capacity": 603,
+        "current_occupancy": 551,
+        "status": "open",
+        "contact_phone": "+92 369 5502929",
+        "address": "Sector I-8, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.096759,
+          33.764476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Sector F-6 37",
+        "shelter_type": "mosque",
+        "capacity": 1001,
+        "current_occupancy": 684,
+        "status": "open",
+        "contact_phone": "+92 375 4050766",
+        "address": "Sohan, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.126326,
+          33.649018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Sector I-8 35",
+        "shelter_type": "government_building",
+        "capacity": 1486,
+        "current_occupancy": 1486,
+        "status": "full",
+        "contact_phone": "+92 331 5049282",
+        "address": "Sector I-10, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.018068,
+          33.750851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tehsil Municipal Office Bara Kahu",
+        "shelter_type": "other",
+        "capacity": 1372,
+        "current_occupancy": 917,
+        "status": "open",
+        "contact_phone": "+92 343 7784725",
+        "address": "Sector G-9, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.101633,
+          33.720497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Rawal Town",
+        "shelter_type": "community_center",
+        "capacity": 754,
+        "current_occupancy": 563,
+        "status": "open",
+        "contact_phone": "+92 374 6144280",
+        "address": "Sector G-10, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.023804,
+          33.698556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Sector F-6 94",
+        "shelter_type": "hospital",
+        "capacity": 1147,
+        "current_occupancy": 379,
+        "status": "closed",
+        "contact_phone": "+92 374 9801946",
+        "address": "Rawal Town, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.988517,
+          33.629129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Sector F-6",
+        "shelter_type": "camp",
+        "capacity": 789,
+        "current_occupancy": 14,
+        "status": "open",
+        "contact_phone": "+92 340 1914794",
+        "address": "Bara Kahu, Islamabad, ICT",
+        "is_verified": true,
+        "area": "islamabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.116526,
+          33.657399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government Boys High School Lahore",
+        "shelter_type": "school",
+        "capacity": 600,
+        "current_occupancy": 240,
+        "status": "open",
+        "contact_phone": "+92 333 4512101",
+        "address": "Gulberg, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.370627,
+          31.542515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riverside Community Centre",
+        "shelter_type": "community_center",
+        "capacity": 150,
+        "current_occupancy": 60,
+        "status": "open",
+        "contact_phone": "+92 333 4512102",
+        "address": "Ravi River Road, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.359802,
+          31.51989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al-Khidmat Relief Camp",
+        "shelter_type": "camp",
+        "capacity": 400,
+        "current_occupancy": 400,
+        "status": "full",
+        "contact_phone": "+92 333 4512103",
+        "address": "Cantt Area, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.380179,
+          31.562477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Civil Hospital Lahore",
+        "shelter_type": "hospital",
+        "capacity": 250,
+        "current_occupancy": 0,
+        "status": "closed",
+        "contact_phone": "+92 333 4512104",
+        "address": "Main Bazaar, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.336797,
+          31.471813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Taqwa",
+        "shelter_type": "mosque",
+        "capacity": 500,
+        "current_occupancy": 130,
+        "status": "open",
+        "contact_phone": "+92 333 4512105",
+        "address": "Model Town, Lahore, Punjab",
+        "is_verified": false,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.375005,
+          31.551664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Johar Town (proposed)",
+        "shelter_type": "community_center",
+        "capacity": 300,
+        "current_occupancy": 0,
+        "status": "open",
+        "contact_phone": null,
+        "address": "Johar Town, Lahore, Punjab",
+        "is_verified": false,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.376597,
+          31.554991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government Primary School Shahdara (unverified)",
+        "shelter_type": "school",
+        "capacity": 350,
+        "current_occupancy": 90,
+        "status": "open",
+        "contact_phone": "+92 333 4512106",
+        "address": "Shahdara, Lahore, Punjab",
+        "is_verified": false,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.343961,
+          31.486786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital DHA",
+        "shelter_type": "other",
+        "capacity": 726,
+        "current_occupancy": 679,
+        "status": "open",
+        "contact_phone": "+92 348 6188935",
+        "address": "Shahdara, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.344885,
+          31.592331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Markazi Masjid Shahdara",
+        "shelter_type": "camp",
+        "capacity": 442,
+        "current_occupancy": 194,
+        "status": "open",
+        "contact_phone": "+92 329 6049101",
+        "address": "Shahdara, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.403386,
+          31.533162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Gulberg",
+        "shelter_type": "mosque",
+        "capacity": 1237,
+        "current_occupancy": 659,
+        "status": "open",
+        "contact_phone": "+92 338 8938746",
+        "address": "Johar Town, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.316852,
+          31.481527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Iqbal Town",
+        "shelter_type": "camp",
+        "capacity": 736,
+        "current_occupancy": 240,
+        "status": "open",
+        "contact_phone": "+92 332 1409790",
+        "address": "Gulberg, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.363399,
+          31.544941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Aziz Bhatti Road",
+        "shelter_type": "government_building",
+        "capacity": 982,
+        "current_occupancy": 644,
+        "status": "open",
+        "contact_phone": "+92 367 7705062",
+        "address": "Wapda Town, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.38448,
+          31.565273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Basic Health Unit Gulberg",
+        "shelter_type": "hospital",
+        "capacity": 268,
+        "current_occupancy": 112,
+        "status": "open",
+        "contact_phone": "+92 387 1842524",
+        "address": "Ferozepur Road, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.446385,
+          31.579066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Model Town",
+        "shelter_type": "government_building",
+        "capacity": 1417,
+        "current_occupancy": 1144,
+        "status": "open",
+        "contact_phone": "+92 379 9468772",
+        "address": "Shahdara, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.350422,
+          31.570212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Aziz Bhatti Road",
+        "shelter_type": "hospital",
+        "capacity": 1022,
+        "current_occupancy": 769,
+        "status": "open",
+        "contact_phone": "+92 348 9130188",
+        "address": "Wapda Town, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.447386,
+          31.561548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Aziz Bhatti Road",
+        "shelter_type": "school",
+        "capacity": 606,
+        "current_occupancy": 553,
+        "status": "open",
+        "contact_phone": "+92 336 3563646",
+        "address": "Wapda Town, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.267046,
+          31.492859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Shahdara",
+        "shelter_type": "mosque",
+        "capacity": 901,
+        "current_occupancy": 852,
+        "status": "open",
+        "contact_phone": "+92 390 7381734",
+        "address": "Aziz Bhatti Road, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.339672,
+          31.531392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government High School DHA",
+        "shelter_type": "government_building",
+        "capacity": 908,
+        "current_occupancy": 752,
+        "status": "open",
+        "contact_phone": "+92 337 4681284",
+        "address": "Iqbal Town, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.315695,
+          31.508498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Aziz Bhatti Road",
+        "shelter_type": "other",
+        "capacity": 1440,
+        "current_occupancy": 338,
+        "status": "open",
+        "contact_phone": "+92 329 9961107",
+        "address": "Gulberg, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.256385,
+          31.500419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Canal Road",
+        "shelter_type": "hospital",
+        "capacity": 1366,
+        "current_occupancy": 945,
+        "status": "open",
+        "contact_phone": "+92 365 4551070",
+        "address": "Aziz Bhatti Road, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.374166,
+          31.454065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Markazi Masjid DHA",
+        "shelter_type": "mosque",
+        "capacity": 913,
+        "current_occupancy": 83,
+        "status": "open",
+        "contact_phone": "+92 380 6871360",
+        "address": "Wapda Town, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.417471,
+          31.506869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Gulberg",
+        "shelter_type": "hospital",
+        "capacity": 458,
+        "current_occupancy": 318,
+        "status": "open",
+        "contact_phone": "+92 371 4656838",
+        "address": "Aziz Bhatti Road, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.415931,
+          31.592442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid DHA",
+        "shelter_type": "community_center",
+        "capacity": 284,
+        "current_occupancy": 83,
+        "status": "open",
+        "contact_phone": "+92 304 7296605",
+        "address": "Shahdara, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.286914,
+          31.541087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Model Town 77",
+        "shelter_type": "other",
+        "capacity": 258,
+        "current_occupancy": 154,
+        "status": "open",
+        "contact_phone": "+92 319 1689025",
+        "address": "DHA, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.401935,
+          31.544086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Shahdara",
+        "shelter_type": "other",
+        "capacity": 1376,
+        "current_occupancy": 860,
+        "status": "open",
+        "contact_phone": "+92 365 8713146",
+        "address": "Johar Town, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.395535,
+          31.460344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Johar Town",
+        "shelter_type": "other",
+        "capacity": 603,
+        "current_occupancy": 551,
+        "status": "open",
+        "contact_phone": "+92 369 5502929",
+        "address": "DHA, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.411435,
+          31.594821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Model Town 37",
+        "shelter_type": "mosque",
+        "capacity": 1001,
+        "current_occupancy": 684,
+        "status": "open",
+        "contact_phone": "+92 375 4050766",
+        "address": "Aziz Bhatti Road, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.443959,
+          31.48658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital DHA 35",
+        "shelter_type": "government_building",
+        "capacity": 1486,
+        "current_occupancy": 1486,
+        "status": "full",
+        "contact_phone": "+92 331 5049282",
+        "address": "Shahdara, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.324875,
+          31.582048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tehsil Municipal Office Ferozepur Road",
+        "shelter_type": "other",
+        "capacity": 1372,
+        "current_occupancy": 917,
+        "status": "open",
+        "contact_phone": "+92 343 7784725",
+        "address": "Wapda Town, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.416796,
+          31.553591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Canal Road",
+        "shelter_type": "community_center",
+        "capacity": 754,
+        "current_occupancy": 563,
+        "status": "open",
+        "contact_phone": "+92 374 6144280",
+        "address": "Iqbal Town, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.331184,
+          31.533021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Model Town 94",
+        "shelter_type": "hospital",
+        "capacity": 1147,
+        "current_occupancy": 379,
+        "status": "closed",
+        "contact_phone": "+92 374 9801946",
+        "address": "Canal Road, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.292369,
+          31.467933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Model Town",
+        "shelter_type": "camp",
+        "capacity": 789,
+        "current_occupancy": 14,
+        "status": "open",
+        "contact_phone": "+92 340 1914794",
+        "address": "Ferozepur Road, Lahore, Punjab",
+        "is_verified": true,
+        "area": "lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.433178,
+          31.494437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government Boys High School Multan",
+        "shelter_type": "school",
+        "capacity": 600,
+        "current_occupancy": 240,
+        "status": "open",
+        "contact_phone": "+92 333 4512101",
+        "address": "Multan Cantt, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.537455,
+          30.185697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riverside Community Centre",
+        "shelter_type": "community_center",
+        "capacity": 150,
+        "current_occupancy": 60,
+        "status": "open",
+        "contact_phone": "+92 333 4512102",
+        "address": "Chenab River Road, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.524793,
+          30.159897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al-Khidmat Relief Camp",
+        "shelter_type": "camp",
+        "capacity": 400,
+        "current_occupancy": 400,
+        "status": "full",
+        "contact_phone": "+92 333 4512103",
+        "address": "Cantt Area, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.547196,
+          30.205543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Civil Hospital Multan",
+        "shelter_type": "hospital",
+        "capacity": 250,
+        "current_occupancy": 0,
+        "status": "closed",
+        "contact_phone": "+92 333 4512104",
+        "address": "Main Bazaar, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.499711,
+          30.108792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Taqwa",
+        "shelter_type": "mosque",
+        "capacity": 500,
+        "current_occupancy": 130,
+        "status": "open",
+        "contact_phone": "+92 333 4512105",
+        "address": "Bosan Road, Multan, Punjab",
+        "is_verified": false,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.54192,
+          30.194793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Shah Rukn-e-Alam (proposed)",
+        "shelter_type": "community_center",
+        "capacity": 300,
+        "current_occupancy": 0,
+        "status": "open",
+        "contact_phone": null,
+        "address": "Shah Rukn-e-Alam, Multan, Punjab",
+        "is_verified": false,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.543543,
+          30.198101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government Primary School Vehari Road (unverified)",
+        "shelter_type": "school",
+        "capacity": 350,
+        "current_occupancy": 90,
+        "status": "open",
+        "contact_phone": "+92 333 4512106",
+        "address": "Vehari Road, Multan, Punjab",
+        "is_verified": false,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.507016,
+          30.123677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Mumtazabad",
+        "shelter_type": "other",
+        "capacity": 726,
+        "current_occupancy": 679,
+        "status": "open",
+        "contact_phone": "+92 348 6188935",
+        "address": "Vehari Road, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.510572,
+          30.232331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Markazi Masjid Vehari Road",
+        "shelter_type": "camp",
+        "capacity": 442,
+        "current_occupancy": 194,
+        "status": "open",
+        "contact_phone": "+92 329 6049101",
+        "address": "Vehari Road, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.566414,
+          30.173162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Multan Cantt",
+        "shelter_type": "mosque",
+        "capacity": 1237,
+        "current_occupancy": 659,
+        "status": "open",
+        "contact_phone": "+92 338 8938746",
+        "address": "Shah Rukn-e-Alam, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.483814,
+          30.121527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Gulgasht Colony",
+        "shelter_type": "camp",
+        "capacity": 736,
+        "current_occupancy": 240,
+        "status": "open",
+        "contact_phone": "+92 332 1409790",
+        "address": "Multan Cantt, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.528245,
+          30.184941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Shujabad Road",
+        "shelter_type": "government_building",
+        "capacity": 982,
+        "current_occupancy": 644,
+        "status": "open",
+        "contact_phone": "+92 367 7705062",
+        "address": "Chowk Kumharanwala, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.548368,
+          30.205273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Basic Health Unit Multan Cantt",
+        "shelter_type": "hospital",
+        "capacity": 268,
+        "current_occupancy": 112,
+        "status": "open",
+        "contact_phone": "+92 387 1842524",
+        "address": "Qasim Bela, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.607459,
+          30.219066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Bosan Road",
+        "shelter_type": "government_building",
+        "capacity": 1417,
+        "current_occupancy": 1144,
+        "status": "open",
+        "contact_phone": "+92 379 9468772",
+        "address": "Vehari Road, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.515857,
+          30.210212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Shujabad Road",
+        "shelter_type": "hospital",
+        "capacity": 1022,
+        "current_occupancy": 769,
+        "status": "open",
+        "contact_phone": "+92 348 9130188",
+        "address": "Chowk Kumharanwala, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.608414,
+          30.201548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Shujabad Road",
+        "shelter_type": "school",
+        "capacity": 606,
+        "current_occupancy": 553,
+        "status": "open",
+        "contact_phone": "+92 336 3563646",
+        "address": "Chowk Kumharanwala, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.436272,
+          30.132859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Vehari Road",
+        "shelter_type": "mosque",
+        "capacity": 901,
+        "current_occupancy": 852,
+        "status": "open",
+        "contact_phone": "+92 390 7381734",
+        "address": "Shujabad Road, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.505596,
+          30.171392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government High School Mumtazabad",
+        "shelter_type": "government_building",
+        "capacity": 908,
+        "current_occupancy": 752,
+        "status": "open",
+        "contact_phone": "+92 337 4681284",
+        "address": "Gulgasht Colony, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.482709,
+          30.148498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Shujabad Road",
+        "shelter_type": "other",
+        "capacity": 1440,
+        "current_occupancy": 338,
+        "status": "open",
+        "contact_phone": "+92 329 9961107",
+        "address": "Multan Cantt, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.426095,
+          30.140419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Daulat Gate",
+        "shelter_type": "hospital",
+        "capacity": 1366,
+        "current_occupancy": 945,
+        "status": "open",
+        "contact_phone": "+92 365 4551070",
+        "address": "Shujabad Road, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.538522,
+          30.094065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Markazi Masjid Mumtazabad",
+        "shelter_type": "mosque",
+        "capacity": 913,
+        "current_occupancy": 83,
+        "status": "open",
+        "contact_phone": "+92 380 6871360",
+        "address": "Chowk Kumharanwala, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.579858,
+          30.146869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Multan Cantt",
+        "shelter_type": "hospital",
+        "capacity": 458,
+        "current_occupancy": 318,
+        "status": "open",
+        "contact_phone": "+92 371 4656838",
+        "address": "Shujabad Road, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.578389,
+          30.232442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Mumtazabad",
+        "shelter_type": "community_center",
+        "capacity": 284,
+        "current_occupancy": 83,
+        "status": "open",
+        "contact_phone": "+92 304 7296605",
+        "address": "Vehari Road, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.455236,
+          30.181087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Bosan Road 77",
+        "shelter_type": "other",
+        "capacity": 258,
+        "current_occupancy": 154,
+        "status": "open",
+        "contact_phone": "+92 319 1689025",
+        "address": "Mumtazabad, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.565029,
+          30.184086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Vehari Road",
+        "shelter_type": "other",
+        "capacity": 1376,
+        "current_occupancy": 860,
+        "status": "open",
+        "contact_phone": "+92 365 8713146",
+        "address": "Shah Rukn-e-Alam, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.558919,
+          30.100344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Shah Rukn-e-Alam",
+        "shelter_type": "other",
+        "capacity": 603,
+        "current_occupancy": 551,
+        "status": "open",
+        "contact_phone": "+92 369 5502929",
+        "address": "Mumtazabad, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.574097,
+          30.234821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Bosan Road 37",
+        "shelter_type": "mosque",
+        "capacity": 1001,
+        "current_occupancy": 684,
+        "status": "open",
+        "contact_phone": "+92 375 4050766",
+        "address": "Shujabad Road, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.605143,
+          30.12658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Mumtazabad 35",
+        "shelter_type": "government_building",
+        "capacity": 1486,
+        "current_occupancy": 1486,
+        "status": "full",
+        "contact_phone": "+92 331 5049282",
+        "address": "Vehari Road, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.491471,
+          30.222048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tehsil Municipal Office Qasim Bela",
+        "shelter_type": "other",
+        "capacity": 1372,
+        "current_occupancy": 917,
+        "status": "open",
+        "contact_phone": "+92 343 7784725",
+        "address": "Chowk Kumharanwala, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.579215,
+          30.193591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Daulat Gate",
+        "shelter_type": "community_center",
+        "capacity": 754,
+        "current_occupancy": 563,
+        "status": "open",
+        "contact_phone": "+92 374 6144280",
+        "address": "Gulgasht Colony, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.497494,
+          30.173021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Bosan Road 94",
+        "shelter_type": "hospital",
+        "capacity": 1147,
+        "current_occupancy": 379,
+        "status": "closed",
+        "contact_phone": "+92 374 9801946",
+        "address": "Daulat Gate, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.460443,
+          30.107933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Bosan Road",
+        "shelter_type": "camp",
+        "capacity": 789,
+        "current_occupancy": 14,
+        "status": "open",
+        "contact_phone": "+92 340 1914794",
+        "address": "Qasim Bela, Multan, Punjab",
+        "is_verified": true,
+        "area": "multan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.594852,
+          30.134437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government Boys High School Sukkur",
+        "shelter_type": "school",
+        "capacity": 600,
+        "current_occupancy": 240,
+        "status": "open",
+        "contact_phone": "+92 333 4512101",
+        "address": "Sukkur City, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.8764,
+          27.737879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riverside Community Centre",
+        "shelter_type": "community_center",
+        "capacity": 150,
+        "current_occupancy": 60,
+        "status": "open",
+        "contact_phone": "+92 333 4512102",
+        "address": "Indus River Road, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.859792,
+          27.704896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al-Khidmat Relief Camp",
+        "shelter_type": "camp",
+        "capacity": 400,
+        "current_occupancy": 400,
+        "status": "full",
+        "contact_phone": "+92 333 4512103",
+        "address": "Cantt Area, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.886315,
+          27.757571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Civil Hospital Sukkur",
+        "shelter_type": "hospital",
+        "capacity": 250,
+        "current_occupancy": 0,
+        "status": "closed",
+        "contact_phone": "+92 333 4512104",
+        "address": "Main Bazaar, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.830543,
+          27.646807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Taqwa",
+        "shelter_type": "mosque",
+        "capacity": 500,
+        "current_occupancy": 130,
+        "status": "open",
+        "contact_phone": "+92 333 4512105",
+        "address": "Military Road, Sukkur, Sindh",
+        "is_verified": false,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.880944,
+          27.746905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Rohri (proposed)",
+        "shelter_type": "community_center",
+        "capacity": 300,
+        "current_occupancy": 0,
+        "status": "open",
+        "contact_phone": null,
+        "address": "Rohri, Sukkur, Sindh",
+        "is_verified": false,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.882597,
+          27.750186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government Primary School Shikarpur Road (unverified)",
+        "shelter_type": "school",
+        "capacity": 350,
+        "current_occupancy": 90,
+        "status": "open",
+        "contact_phone": "+92 333 4512106",
+        "address": "Shikarpur Road, Sukkur, Sindh",
+        "is_verified": false,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.837979,
+          27.661575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Gharibabad",
+        "shelter_type": "other",
+        "capacity": 726,
+        "current_occupancy": 679,
+        "status": "open",
+        "contact_phone": "+92 348 6188935",
+        "address": "Saleh Pat, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.844885,
+          27.78182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Markazi Masjid Saleh Pat",
+        "shelter_type": "camp",
+        "capacity": 442,
+        "current_occupancy": 194,
+        "status": "open",
+        "contact_phone": "+92 329 6049101",
+        "address": "Saleh Pat, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.903386,
+          27.718706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Sukkur City",
+        "shelter_type": "mosque",
+        "capacity": 1237,
+        "current_occupancy": 659,
+        "status": "open",
+        "contact_phone": "+92 338 8938746",
+        "address": "Military Road, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.816852,
+          27.663629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Barrage Colony",
+        "shelter_type": "camp",
+        "capacity": 736,
+        "current_occupancy": 240,
+        "status": "open",
+        "contact_phone": "+92 332 1409790",
+        "address": "Sukkur City, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.863399,
+          27.731271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Pano Aqil",
+        "shelter_type": "government_building",
+        "capacity": 982,
+        "current_occupancy": 644,
+        "status": "open",
+        "contact_phone": "+92 367 7705062",
+        "address": "Shikarpur Road, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.88448,
+          27.752958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Basic Health Unit Sukkur City",
+        "shelter_type": "hospital",
+        "capacity": 268,
+        "current_occupancy": 112,
+        "status": "open",
+        "contact_phone": "+92 387 1842524",
+        "address": "Bunder Road, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.946385,
+          27.76767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Rohri",
+        "shelter_type": "government_building",
+        "capacity": 1417,
+        "current_occupancy": 1144,
+        "status": "open",
+        "contact_phone": "+92 379 9468772",
+        "address": "Saleh Pat, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.850422,
+          27.758227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Pano Aqil",
+        "shelter_type": "hospital",
+        "capacity": 1022,
+        "current_occupancy": 769,
+        "status": "open",
+        "contact_phone": "+92 348 9130188",
+        "address": "Shikarpur Road, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.947386,
+          27.748985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Pano Aqil",
+        "shelter_type": "school",
+        "capacity": 606,
+        "current_occupancy": 553,
+        "status": "open",
+        "contact_phone": "+92 336 3563646",
+        "address": "Shikarpur Road, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.767046,
+          27.675717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Saleh Pat",
+        "shelter_type": "mosque",
+        "capacity": 901,
+        "current_occupancy": 852,
+        "status": "open",
+        "contact_phone": "+92 390 7381734",
+        "address": "Pano Aqil, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.839672,
+          27.716818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Government High School Gharibabad",
+        "shelter_type": "government_building",
+        "capacity": 908,
+        "current_occupancy": 752,
+        "status": "open",
+        "contact_phone": "+92 337 4681284",
+        "address": "Barrage Colony, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.815695,
+          27.692398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Pano Aqil",
+        "shelter_type": "other",
+        "capacity": 1440,
+        "current_occupancy": 338,
+        "status": "open",
+        "contact_phone": "+92 329 9961107",
+        "address": "Sukkur City, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.756385,
+          27.683781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Minara Road",
+        "shelter_type": "hospital",
+        "capacity": 1366,
+        "current_occupancy": 945,
+        "status": "open",
+        "contact_phone": "+92 365 4551070",
+        "address": "Pano Aqil, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.874166,
+          27.634336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Markazi Masjid Gharibabad",
+        "shelter_type": "mosque",
+        "capacity": 913,
+        "current_occupancy": 83,
+        "status": "open",
+        "contact_phone": "+92 380 6871360",
+        "address": "Shikarpur Road, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.917471,
+          27.69066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Primary School Sukkur City",
+        "shelter_type": "hospital",
+        "capacity": 458,
+        "current_occupancy": 318,
+        "status": "open",
+        "contact_phone": "+92 371 4656838",
+        "address": "Pano Aqil, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.915931,
+          27.781938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Gharibabad",
+        "shelter_type": "community_center",
+        "capacity": 284,
+        "current_occupancy": 83,
+        "status": "open",
+        "contact_phone": "+92 304 7296605",
+        "address": "Saleh Pat, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.786914,
+          27.72716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Rohri 77",
+        "shelter_type": "other",
+        "capacity": 258,
+        "current_occupancy": 154,
+        "status": "open",
+        "contact_phone": "+92 319 1689025",
+        "address": "Gharibabad, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.901935,
+          27.730359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Relief Camp Saleh Pat",
+        "shelter_type": "other",
+        "capacity": 1376,
+        "current_occupancy": 860,
+        "status": "open",
+        "contact_phone": "+92 365 8713146",
+        "address": "Military Road, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.895535,
+          27.641033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Centre Military Road",
+        "shelter_type": "other",
+        "capacity": 603,
+        "current_occupancy": 551,
+        "status": "open",
+        "contact_phone": "+92 369 5502929",
+        "address": "Gharibabad, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.911435,
+          27.784476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Rohri 37",
+        "shelter_type": "mosque",
+        "capacity": 1001,
+        "current_occupancy": 684,
+        "status": "open",
+        "contact_phone": "+92 375 4050766",
+        "address": "Pano Aqil, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.943959,
+          27.669018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Gharibabad 35",
+        "shelter_type": "government_building",
+        "capacity": 1486,
+        "current_occupancy": 1486,
+        "status": "full",
+        "contact_phone": "+92 331 5049282",
+        "address": "Saleh Pat, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.824875,
+          27.770851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tehsil Municipal Office Bunder Road",
+        "shelter_type": "other",
+        "capacity": 1372,
+        "current_occupancy": 917,
+        "status": "open",
+        "contact_phone": "+92 343 7784725",
+        "address": "Shikarpur Road, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.916796,
+          27.740497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Minara Road",
+        "shelter_type": "community_center",
+        "capacity": 754,
+        "current_occupancy": 563,
+        "status": "open",
+        "contact_phone": "+92 374 6144280",
+        "address": "Barrage Colony, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.831184,
+          27.718556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Hospital Rohri 94",
+        "shelter_type": "hospital",
+        "capacity": 1147,
+        "current_occupancy": 379,
+        "status": "closed",
+        "contact_phone": "+92 374 9801946",
+        "address": "Minara Road, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.792369,
+          27.649129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamia Masjid Rohri",
+        "shelter_type": "camp",
+        "capacity": 789,
+        "current_occupancy": 14,
+        "status": "open",
+        "contact_phone": "+92 340 1914794",
+        "address": "Bunder Road, Sukkur, Sindh",
+        "is_verified": true,
+        "area": "sukkur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.933178,
+          27.677399
+        ]
+      }
+    }
+  ]
+}
