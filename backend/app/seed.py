@@ -10,6 +10,7 @@ inside the Vercel serverless bundle.
 
 import importlib.util
 import logging
+import time
 from pathlib import Path
 
 from app.db import get_pool
@@ -56,16 +57,28 @@ def ensure_seeded() -> bool:
     """Ensure the database has the extension, schema and sample data.
 
     Returns True when seeding ran, False when the data was already there.
+    Runs in two committed steps so that a failure while loading data still
+    leaves the extension and schema in place (health keeps working and the
+    next cold start retries only the missing part).
     """
+    started = time.monotonic()
+
+    # Step 1: extension + schema, committed immediately.
     with get_pool().connection() as conn:
         conn.execute("SELECT pg_advisory_xact_lock(%s)", (SEED_LOCK_KEY,))
         conn.execute("CREATE EXTENSION IF NOT EXISTS postgis")
         if not _schema_exists(conn):
             logger.info("Schema not found - applying db/init SQL files")
             _apply_schema(conn)
+    logger.info("Extension and schema ready (%.1f s)", time.monotonic() - started)
+
+    # Step 2: sample data, its own transaction.
+    with get_pool().connection() as conn:
+        conn.execute("SELECT pg_advisory_xact_lock(%s)", (SEED_LOCK_KEY,))
         if conn.execute("SELECT count(*) FROM areas").fetchone()[0] > 0:
             return False
         logger.info("Database is empty - loading sample data from %s", DATA_DIR)
         inserted = _load_sample_data(conn)
-        logger.info("Seeded database with %d rows", inserted)
+        logger.info("Seeded database with %d rows (%.1f s total)",
+                    inserted, time.monotonic() - started)
         return True

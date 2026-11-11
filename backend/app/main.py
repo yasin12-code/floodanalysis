@@ -68,10 +68,14 @@ async def database_error_handler(request: Request, exc: psycopg.Error):
 
 @app.get("/api/health")
 def health():
-    # PostGIS_Version() proves the extension is installed and the DB is reachable.
+    # PostGIS_Version() proves the extension is installed and the DB is reachable;
+    # "seeded" reports whether the sample data has been loaded, which makes a
+    # failed startup seed visible without digging through function logs.
     with get_pool().connection() as conn:
         row = conn.execute("SELECT PostGIS_Version() AS version").fetchone()
-    return {"status": "ok", "postgis_version": row[0]}
+        schema_ok = conn.execute("SELECT to_regclass('public.areas')").fetchone()[0] is not None
+        seeded = schema_ok and conn.execute("SELECT count(*) FROM areas").fetchone()[0] > 0
+    return {"status": "ok", "postgis_version": row[0], "seeded": seeded}
 
 
 @app.get("/api/config")
