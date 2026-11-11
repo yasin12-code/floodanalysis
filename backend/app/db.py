@@ -9,9 +9,14 @@ pool: ConnectionPool | None = None
 
 def init_pool(database_url: str) -> None:
     global pool
-    # Neon's pooled endpoint runs PgBouncer in transaction mode, which cannot
-    # handle psycopg's prepared statements; DB_PGBOUNCER=1 disables them.
-    kwargs = {"prepare_threshold": None} if os.environ.get("DB_PGBOUNCER") == "1" else {}
+    # Extra arguments forwarded to psycopg.connect():
+    # - Neon's pooled endpoint runs PgBouncer in transaction mode, which cannot
+    #   handle psycopg's prepared statements; DB_PGBOUNCER=1 disables them.
+    # - A connect timeout makes unreachable databases fail fast instead of
+    #   burning the serverless function's time budget on a hanging attempt.
+    kwargs = {"connect_timeout": 10}
+    if os.environ.get("DB_PGBOUNCER") == "1":
+        kwargs["prepare_threshold"] = None
     pool = ConnectionPool(database_url, min_size=1, max_size=10, open=True, kwargs=kwargs)
 
 
