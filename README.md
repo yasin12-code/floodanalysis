@@ -349,14 +349,15 @@ DATABASE_URL=postgresql://postgres:postgres@localhost:5432/webgis \
 ## Deploying on Vercel
 
 The whole app — FastAPI API, Leaflet frontend and PostGIS database — can run
-on Vercel's free tier. Vercel auto-detects the FastAPI app from the root-level
-`main.py` entrypoint and serves it as one serverless function (`maxDuration:
-30` in `vercel.json`); the frontend is served by the same app through its
-existing `StaticFiles` mount, so everything stays same-origin and no frontend
-code changes are needed. The database is [Neon](https://neon.com) (Vercel's
-Postgres partner), which supports PostGIS via `CREATE EXTENSION postgis`.
+on Vercel's free tier. Vercel auto-detects the FastAPI app from the
+`api/index.py` entrypoint and serves it as one serverless function
+(`maxDuration: 60` in `vercel.json`); the frontend is served by the same app
+through its existing `StaticFiles` mount, so everything stays same-origin and
+no frontend code changes are needed. The database is
+[Neon](https://neon.com) (Vercel's Postgres partner), which supports PostGIS
+via `CREATE EXTENSION postgis`.
 
-Deploy files already in the repo: `main.py` (entrypoint shim that puts
+Deploy files already in the repo: `api/index.py` (entrypoint shim that puts
 `backend/` on `sys.path`), `requirements.txt` (runtime dependencies),
 `vercel.json`, `.gitignore`.
 
@@ -367,25 +368,23 @@ editor, no local `psql`, no `load_data.py` run. The check is idempotent and
 guarded by an advisory lock, so concurrent cold starts seed only once and
 later starts skip straight past it.
 
-1. **Create the database.** In the Vercel dashboard: Storage → Create Database
-   → Neon (Postgres), pick a region near Pakistan (e.g. Singapore). Copy the
-   **pooled** connection string (the one with `-pooler` in the host).
+Deploying is three CLI commands (after a one-time `vercel login`):
 
-2. **Create the Vercel project.** Either import the GitHub repo, or install
-   the Vercel CLI and run `vercel` in the project root (CLI deploys work
-   without git). Set the environment variables:
+1. `vercel project add floodanalysis` and
+   `vercel link --yes --project floodanalysis` — create and link the project.
+2. `vercel integration add neon --billing-plan free_v3 --meta region=sin1 --meta auth=false`
+   — installs the Neon integration, creates the database and connects it to
+   the project. `DATABASE_URL` (pooled), `DATABASE_URL_UNPOOLED` and the
+   `PG*` variables are set on every environment automatically; `db.py`
+   detects the `-pooler` host and disables psycopg prepared statements, so no
+   `DB_PGBOUNCER` flag is needed.
+3. `vercel --prod --yes` — deploy.
 
-   | Variable | Value |
-   |---|---|
-   | `DATABASE_URL` | the Neon **pooled** connection string |
-   | `DB_PGBOUNCER` | `1` — disables psycopg prepared statements, which the Neon pooler (PgBouncer transaction mode) cannot handle |
-   | `CORS_ORIGINS` | `https://<your-app>.vercel.app` — same-origin POSTs still send an `Origin` header; list the deployed URL (or `*` for a public demo) |
-
-3. Open `https://<your-app>.vercel.app`. The first hit takes a few extra
-   seconds: the cold start creates the PostGIS extension, the schema and the
-   sample data before serving the page. Every later request is fast, and the
-   map shows all eight study areas immediately. If Neon's free tier
-   rate-limits, switch `DATABASE_URL` to the direct connection string.
+Then open `https://<your-app>.vercel.app`. The first hit takes a few extra
+seconds: the cold start creates the PostGIS extension, the schema and the
+sample data before serving the page. Every later request is fast, and the
+map shows all eight study areas immediately. If Neon's free tier
+rate-limits, switch `DATABASE_URL` to the unpooled connection string.
 
 ## Screenshots
 
@@ -437,13 +436,13 @@ Where the brief was silent, decisions were made and are logged here:
   changes, and the map's data colours (risk levels, shelter/road status) and
   the default OpenStreetMap basemap are unchanged so the GIS semantics stay
   exact.
-- Vercel deployment support: root `main.py` entrypoint shim (Vercel
+- Vercel deployment support: `api/index.py` entrypoint shim (Vercel
   auto-detects the FastAPI app from it), `requirements.txt`, `vercel.json`
-  (`maxDuration: 30`) and `.gitignore` added. `backend/app/db.py` gained a
-  `DB_PGBOUNCER=1` env toggle that disables psycopg prepared statements so
-  the app can use Neon's pooled connection string (PgBouncer transaction
-  mode). Local behaviour is unchanged — 36/36 tests green. See the
-  "Deploying on Vercel" section for the full runbook.
+  (`maxDuration: 60`) and `.gitignore` added. `backend/app/db.py` detects
+  Neon's pooled connection string (PgBouncer transaction mode, host contains
+  `-pooler`) and disables psycopg prepared statements automatically — no
+  `DB_PGBOUNCER` flag needed. Local behaviour is unchanged — 36/36 tests
+  green. See the "Deploying on Vercel" section for the full runbook.
 - Zero-step database seeding (deployment convenience): on startup the API
   creates the PostGIS extension, applies the `db/init` schema when the
   database has no tables and loads the sample data when the `areas` table is
