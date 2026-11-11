@@ -56,7 +56,7 @@ Leaflet 1.9.x frontend (plain HTML/CSS/JS, ES modules, no build step)
 The application reads **all** spatial data from PostGIS at runtime. No geometry
 is hard-coded in the frontend or backend, and no static GeoJSON file is served
 to the map — the files in `data/` are seed input for `scripts/load_data.py`
-only.
+(manual/local seeding) and for the startup auto-seed in `backend/app/seed.py`.
 
 ## Repository layout
 
@@ -360,26 +360,20 @@ Deploy files already in the repo: `main.py` (entrypoint shim that puts
 `backend/` on `sys.path`), `requirements.txt` (runtime dependencies),
 `vercel.json`, `.gitignore`.
 
+**The API seeds itself.** On startup (`backend/app/seed.py`, called from the
+app lifespan) the API checks the database and, when it is empty, applies the
+`db/init` schema and loads the sample data from `data/` automatically — no SQL
+editor, no local `psql`, no `load_data.py` run. The check is idempotent and
+guarded by an advisory lock, so concurrent cold starts seed only once and
+later starts skip straight past it.
+
 1. **Create the database.** In the Vercel dashboard: Storage → Create Database
-   → Neon (Postgres), pick a region near Pakistan (e.g. Singapore). In the
-   Neon SQL Editor run `CREATE EXTENSION IF NOT EXISTS postgis;`. Copy both
-   connection strings (direct and pooled) from the dashboard.
+   → Neon (Postgres), pick a region near Pakistan (e.g. Singapore). Copy the
+   **pooled** connection string (the one with `-pooler` in the host).
 
-2. **Seed the database from your machine** (needs Python + psql only, not a
-   local PostGIS):
-
-   ```bash
-   psql "$NEON_DIRECT_URL" -f db/init/01_extensions.sql -f db/init/02_schema.sql \
-     -f db/init/03_indexes.sql -f db/init/04_views.sql
-   DATABASE_URL="$NEON_DIRECT_URL" backend/.venv/Scripts/python scripts/load_data.py
-   ```
-
-   Use the **direct** connection string for seeding; the pooled one for the
-   app. (On Windows, `PSYCOPG_IMPL=python` may be required for psycopg.)
-
-3. **Create the Vercel project.** Either push the repo to GitHub and import
-   it, or install the Vercel CLI and run `vercel` in the project root (CLI
-   deploys work without git). Set the environment variables:
+2. **Create the Vercel project.** Either import the GitHub repo, or install
+   the Vercel CLI and run `vercel` in the project root (CLI deploys work
+   without git). Set the environment variables:
 
    | Variable | Value |
    |---|---|
@@ -387,10 +381,11 @@ Deploy files already in the repo: `main.py` (entrypoint shim that puts
    | `DB_PGBOUNCER` | `1` — disables psycopg prepared statements, which the Neon pooler (PgBouncer transaction mode) cannot handle |
    | `CORS_ORIGINS` | `https://<your-app>.vercel.app` — same-origin POSTs still send an `Origin` header; list the deployed URL (or `*` for a public demo) |
 
-4. Open `https://<your-app>.vercel.app`. The first hit takes a few seconds
-   (cold start + database connection); afterwards requests are fast. If
-   Neon's free tier rate-limits, switch `DATABASE_URL` to the direct
-   connection string.
+3. Open `https://<your-app>.vercel.app`. The first hit takes a few extra
+   seconds: the cold start creates the PostGIS extension, the schema and the
+   sample data before serving the page. Every later request is fast, and the
+   map shows all eight study areas immediately. If Neon's free tier
+   rate-limits, switch `DATABASE_URL` to the direct connection string.
 
 ## Screenshots
 
@@ -449,6 +444,12 @@ Where the brief was silent, decisions were made and are logged here:
   the app can use Neon's pooled connection string (PgBouncer transaction
   mode). Local behaviour is unchanged — 36/36 tests green. See the
   "Deploying on Vercel" section for the full runbook.
+- Zero-step database seeding (deployment convenience): on startup the API
+  creates the PostGIS extension, applies the `db/init` schema when the
+  database has no tables and loads the sample data when the `areas` table is
+  empty (`backend/app/seed.py`). Idempotent and advisory-lock-guarded, so a
+  fresh Neon database comes up fully loaded with no manual `psql` or
+  `load_data.py` steps; manual seeding still works unchanged for local use.
 
 ## Roadmap
 

@@ -3,9 +3,10 @@
 Run:      python scripts/load_data.py
 Env:      DATABASE_URL (e.g. postgresql://postgres:postgres@localhost:5432/webgis)
 
-The running app never reads the data/ files; they are only seed input for this
-loader. Geometry is inserted with ST_GeomFromGeoJSON (SRID 4326), and zones
-are cast to MultiPolygon with ST_Multi to match the schema column type.
+The running app never reads the data/ files for serving requests; they are seed
+input for this loader (run manually or by the app's startup auto-seed in
+backend/app/seed.py). Geometry is inserted with ST_GeomFromGeoJSON (SRID 4326),
+and zones are cast to MultiPolygon with ST_Multi to match the schema column type.
 """
 
 import json
@@ -42,45 +43,55 @@ def load_areas(cur):
     return len(areas)
 
 
+def load_data_into(conn):
+    """Truncate and reload all sample data using an open connection.
+
+    Runs inside the caller's transaction; the caller commits. Used by the
+    CLI entry point below and by the app's startup auto-seed (backend/app/seed.py).
+    """
+    with conn.cursor() as cur:
+        cur.execute("TRUNCATE areas, flood_zones, shelters, roads, flood_reports "
+                    "RESTART IDENTITY CASCADE")
+    counts = {}
+    with conn.cursor() as cur:
+        counts["areas"] = load_areas(cur)
+    for table, filename, _columns in FILES:
+        with open(os.path.join(DATA_DIR, filename), encoding="utf-8") as fh:
+            features = json.load(fh)["features"]
+        rows = []
+        for feat in features:
+            props = feat["properties"]
+            geom_json = json.dumps(feat["geometry"])
+            if table == "flood_zones":
+                rows.append((props["name"], props["area"], props["risk_level"],
+                             props["return_period_years"], props["source"], geom_json))
+            elif table == "shelters":
+                rows.append((props["name"], props["area"], props["shelter_type"],
+                             props["capacity"], props["current_occupancy"], props["status"],
+                             props["contact_phone"], props["address"], props["is_verified"],
+                             geom_json))
+            else:
+                rows.append((props["name"], props["area"], props["road_type"],
+                             props["status"], geom_json))
+        if table == "flood_zones":
+            sql = ("INSERT INTO flood_zones (name, area, risk_level, return_period_years, source, geom) "
+                   "VALUES (%s, %s, %s, %s, %s, ST_Multi(ST_SetSRID(ST_GeomFromGeoJSON(%s), 4326)))")
+        elif table == "shelters":
+            sql = ("INSERT INTO shelters (name, area, shelter_type, capacity, current_occupancy, "
+                   "status, contact_phone, address, is_verified, geom) "
+                   "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, ST_SetSRID(ST_GeomFromGeoJSON(%s), 4326))")
+        else:
+            sql = ("INSERT INTO roads (name, area, road_type, status, geom) "
+                   "VALUES (%s, %s, %s, %s, ST_SetSRID(ST_GeomFromGeoJSON(%s), 4326))")
+        with conn.cursor() as cur:
+            cur.executemany(sql, rows)
+        counts[table] = len(rows)
+    return counts
+
+
 def load_features(conn_url):
     with psycopg.connect(conn_url) as conn:
-        with conn.cursor() as cur:
-            cur.execute("TRUNCATE areas, flood_zones, shelters, roads, flood_reports "
-                        "RESTART IDENTITY CASCADE")
-        with conn.cursor() as cur:
-            counts = {"areas": load_areas(cur)}
-        for table, filename, _columns in FILES:
-            with open(os.path.join(DATA_DIR, filename), encoding="utf-8") as fh:
-                features = json.load(fh)["features"]
-            rows = []
-            for feat in features:
-                props = feat["properties"]
-                geom_json = json.dumps(feat["geometry"])
-                if table == "flood_zones":
-                    rows.append((props["name"], props["area"], props["risk_level"],
-                                 props["return_period_years"], props["source"], geom_json))
-                elif table == "shelters":
-                    rows.append((props["name"], props["area"], props["shelter_type"],
-                                 props["capacity"], props["current_occupancy"], props["status"],
-                                 props["contact_phone"], props["address"], props["is_verified"],
-                                 geom_json))
-                else:
-                    rows.append((props["name"], props["area"], props["road_type"],
-                                 props["status"], geom_json))
-            if table == "flood_zones":
-                sql = ("INSERT INTO flood_zones (name, area, risk_level, return_period_years, source, geom) "
-                       "VALUES (%s, %s, %s, %s, %s, ST_Multi(ST_SetSRID(ST_GeomFromGeoJSON(%s), 4326)))")
-            elif table == "shelters":
-                sql = ("INSERT INTO shelters (name, area, shelter_type, capacity, current_occupancy, "
-                       "status, contact_phone, address, is_verified, geom) "
-                       "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, ST_SetSRID(ST_GeomFromGeoJSON(%s), 4326))")
-            else:
-                sql = ("INSERT INTO roads (name, area, road_type, status, geom) "
-                       "VALUES (%s, %s, %s, %s, ST_SetSRID(ST_GeomFromGeoJSON(%s), 4326))")
-            with conn.cursor() as cur:
-                cur.executemany(sql, rows)
-            counts[table] = len(rows)
-    return counts
+        return load_data_into(conn)
 
 
 def main():

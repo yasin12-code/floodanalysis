@@ -15,6 +15,7 @@ from fastapi.staticfiles import StaticFiles
 from app.config import settings
 from app.db import close_pool, get_pool, init_pool
 from app.routers import areas, layers, risk, shelters, stats
+from app.seed import ensure_seeded
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s %(message)s")
 logger = logging.getLogger("webgis")
@@ -25,6 +26,13 @@ FRONTEND_DIR = Path(__file__).resolve().parents[2] / "frontend"
 @asynccontextmanager
 async def lifespan(_app: FastAPI):
     init_pool(settings.database_url)
+    try:
+        if ensure_seeded():
+            logger.info("Database was empty - schema and sample data loaded at startup")
+    except Exception:
+        # A broken database should not crash the process: endpoints surface
+        # the real error, and the cause is logged here.
+        logger.exception("Automatic database seeding failed")
     yield
     close_pool()
 
